@@ -1,0 +1,33 @@
+.container-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+.container-list li {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.container-list li a {
+  display: block;
+  padding: 8px 16px;
+  color: #000;
+  text-decoration: none;
+}
+.container-list li a:hover {
+  background-color: #555;
+  color: white;
+}
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
